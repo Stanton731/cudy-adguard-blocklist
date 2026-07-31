@@ -1,0 +1,22 @@
+{
+  "name": "HaGeZi Pro + AdGuard + OISD Small)",
+  "description": "Merged and deuplicated combined list for AdGuard Home",
+  "sources": [
+    {
+      "name": "HaGeZi Pro",
+      "source": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/pro.txt"
+    },
+    {
+      "name": "AdGuard DNS Filter",
+      "source": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt"
+    },
+    {
+      "name": "OISD Small (AdGuard format)",
+      "source": "https://small.oisd.nl"
+    }
+  ],
+  "transformations": [
+    "Deduplicate",
+    "Compress"
+  ]
+}
